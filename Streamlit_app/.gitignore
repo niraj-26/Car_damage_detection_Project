@@ -1,0 +1,13 @@
+# Ignore IDE/project files
+../.idea/
+
+# Ignore Python cache & notebook junk
+__pycache__/
+.ipynb_checkpoints/
+
+# Ignore data & model weights in parent folder
+../dataset/
+../saved_model.pth
+
+# OS files
+.DS_Store
